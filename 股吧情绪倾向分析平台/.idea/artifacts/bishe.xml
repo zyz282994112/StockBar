@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bishe">
+    <output-path>$PROJECT_DIR$/out/artifacts/bishe</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="股吧情绪倾向分析平台/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="股吧情绪倾向分析平台" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="IKAnalyzer2012" />
+          <element id="library" level="project" name="jsoup-1.7.2" />
+          <element id="library" level="project" name="weka" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
